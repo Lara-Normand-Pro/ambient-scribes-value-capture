@@ -1,0 +1,22 @@
+id,parameter,value,unit,type,reference,url,used_for,checked_by_student
+arr_2024,Doctolib annual recurring revenue 2024,348000000,EUR,data,Leprince-Ringuet (2025),https://sifted.eu/articles/doctolib-results-2024,"Section 5.1, Figure 2",False
+arr_2025,Doctolib annual recurring revenue 2025,422000000,EUR,data,Caravagna (2026),https://www.ticsante.com/story?ID=8218,"Section 5.1, Figure 2",False
+arr_share_professionals,Share of ARR from professional subscriptions (2024),0.99,share,data,Leprince-Ringuet (2025),https://sifted.eu/articles/doctolib-results-2024,Section 5.1,False
+paying_professionals,Paying health professionals (2024),400000,professionals,data,Leprince-Ringuet (2025),https://sifted.eu/articles/doctolib-results-2024,"Section 5.1, Figure 2",False
+patient_accounts,Patient accounts (2024),80000000,accounts,data,Leprince-Ringuet (2025),https://sifted.eu/articles/doctolib-results-2024,"Section 5.1, Figure 2",False
+scribe_price_low,Standalone consultation assistant price (lower advertised rate incl. VAT),64,EUR per month,data,Doctolib (n.d.-a),https://doctolib.zendesk.com/hc/fr/articles/36810731389460,"Section 4.3, Figure 2",False
+scribe_price_high,Standalone consultation assistant price (higher advertised rate incl. VAT),79,EUR per month,data,Doctolib (n.d.-a),https://doctolib.zendesk.com/hc/fr/articles/36810731389460,"Section 4.3, Figure 2",False
+patient_price,Doctolib+ subscription (Doctolib Parents) from,4.99,EUR per month,data,Doctolib (n.d.-b),https://parents.doctolib.fr/,Figure 2 (rounded to 5),False
+doc_minutes_saved_per_8h,Documentation minutes saved per 8 hours of scheduled patient time,16,minutes,data,Rotenstein et al. (2026),https://doi.org/10.1001/jama.2026.2253,"Sections 4.3, 5.3",False
+extra_visits_per_week,Additional visits per week after adoption,0.49,visits per week,data,Rotenstein et al. (2026),https://doi.org/10.1001/jama.2026.2253,Section 4.3,False
+gps_france,General practitioners in activity in France (1 January 2026),101000,doctors,data,"Direction de la recherche, des études, de l'évaluation et des statistiques (2026)",https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026,Section 5.3,False
+gp_hour_value,Value of one hour of GP time,120,EUR per hour,assumption,Author's assumption (illustrative),,Section 4.3,
+consultation_fee,GP consultation fee,30,EUR,assumption,Author's assumption (illustrative),,Section 4.3,
+working_days_month,Working days per month,20,days,assumption,Author's assumption,,Section 4.3,
+schedule_minutes,Minutes in an eight-hour care schedule,480,minutes,assumption,Rotenstein et al. (2026) unit of measure,,Section 5.3,
+adoption_state_scenario,Share of French GPs using a scribe,0.5,share,scenario,Author's scenario,,Section 5.3,
+scribe_adoption_low,Scribe adoption among paying professionals (low),0.10,share,scenario,Author's scenario,,Figure 2,
+scribe_adoption_high,Scribe adoption among paying professionals (high),0.25,share,scenario,Author's scenario,,Figure 2,
+patient_paying_low,Share of patient accounts paying (low),0.02,share,scenario,Author's scenario,,Figure 2,
+patient_paying_mid,Share of patient accounts paying (mid),0.05,share,scenario,Author's scenario,,Figure 2,
+patient_paying_high,Share of patient accounts paying (high),0.10,share,scenario,Author's scenario,,Figure 2,
